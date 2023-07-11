@@ -18,8 +18,8 @@ http:
   - method: GET
     path:
       - '{{BaseURL}}/.;/manager/html'
-      - '{{BaseURL}}/..;/host-manager/html'
-      - '{{BaseURL}}/.;/manager/html'
+      - '{{BaseURL}}/.;/host-manager/html'
+      - '{{BaseURL}}/..;/manager/html'
       - '{{BaseURL}}/..;/host-manager/html'
 
     matchers-condition: and
