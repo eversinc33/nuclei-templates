@@ -1,8 +1,8 @@
-id: tomcat-manager-path-traversal.yaml
+id: tomcat-manager-path-traversal
 
 info:
   name: Apache Tomcat Manager Login Panel Path Traversal - Detect
-  author: @eversinc33
+  author: eversinc33
   severity: high
   description: Apache Tomcat Manager login panel can be accessed via path traversal due to reverse-proxy inconsistency. 
   reference: https://i.blackhat.com/us-18/Wed-August-8/us-18-Orange-Tsai-Breaking-Parser-Logic-Take-Your-Path-Normalization-Off-And-Pop-0days-Out-2.pdf
